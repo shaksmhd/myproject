@@ -1,0 +1,23 @@
+body {
+    background-image: url("../image/imag3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color    : rgba(0, 0, 0, 0.7);
+}
+form {
+    font-size: 40px;
+    font-style: oblique;
+    
+}
+
+/* grouping styling */
+h4, p, span {
+    color: white
+}
+
+/* styling with attribute */
+input[type="email"] {
+    padding: 20px;
+}

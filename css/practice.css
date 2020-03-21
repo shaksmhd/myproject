@@ -1,0 +1,31 @@
+body {background-color: forestgreen;}
+h1 {
+    text-align: center;
+    background-color: rgb(202, 111, 111);
+    }
+h2 {
+    text-align: center;
+    background-color: rgb(37, 112, 37);
+}
+.box {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+    color: gray;
+}
+.phone {
+    border-radius: 16px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+}
+.phone:hover {
+    background-color: orangered;
+    color: white;
+}
