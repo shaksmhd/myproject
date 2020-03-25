@@ -7,39 +7,34 @@
 <form action="/action_page.php">
   <div class="container">
     <h1>Register</h1>
-    
-    <hr>
-    <input type="text" placeholder="First Name"required>
 
-    <input type="text" placeholder="Last Name"required>
+    <input type="text" placeholder="First Name"required class="forminput">
 
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="text" placeholder="Last Name"required class="forminput">
 
-    <input type="number" placeholder="Phone Number" name="number" required>
+    <input type="text" placeholder="Enter Email" name="email" required class="forminput">
 
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="number" placeholder="Phone Number" name="number" required class="forminput">
 
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="password" placeholder="Enter Password" name="psw" required class="forminput">
 
-    <label for="county">Choose your country:</label>
-      <select id="country" name="country list" form="country">
-        <option value="Nill">Nill</option>
-        <option value="Cameroon">Cameroon</option>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required class="forminput">  
+      <select id="country" name="country list" form="country" class="forminput">
+        <option>Please choose a country</option>
+        <option value="cameroon">Cameroon</option>
         <option value="malli">Malli</option>
-        <option value="DRC">DRC</option>
-        <option value="Angola">Angola</option>
-        <option value="Nigeria">Nigeria</option>
-        <option value="South Africa">South Africa</option>
-        <option value="Ungada">Ungada</option>
-        <option value="Morocco">Morocco</option>
-        <option value="Madagascar">Madagascar</option>
-        <option value="Libya">Libya</option>
-        <option value="Kenya">Kenya</option>
-        <option value="Guinea-Bissau">Guinea-Bissau</option>
-        <option value="Gambia">Gambia</option>
+        <option value="drc">DRC</option>
+        <option value="angola">Angola</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="south-africa">South Africa</option>
+        <option value="ungada">Ungada</option>
+        <option value="morocco">Morocco</option>
+        <option value="madagascar">Madagascar</option>
+        <option value="libya">Libya</option>
+        <option value="kenya">Kenya</option>
+        <option value="guinea-bissau">Guinea-Bissau</option>
+        <option value="gambia">Gambia</option>
       </select>
-
-    <hr>
     
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 

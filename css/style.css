@@ -1,14 +1,7 @@
-.form {
-    background-color: lightgrey;
-    width: 200px;
-    border: 3px solid green;
-    padding: 25px;
-    margin: 10px;
-  }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: orangered;
-    margin: 10px 10px 10px 10px;
+    margin: 0;
   }
   
   * {
@@ -17,30 +10,27 @@
   
   /* Add padding to containers */
   .container {
-    padding: 16px;
-    background-color: white;
-    text-align: center;
+    padding: 25px;
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 400px;
   }
   
   /* Full-width input fields */
-  input[type=text], input[type=number], input[type=password] {
+  .forminput {
     width: 100%;
-    padding: 15px;
-    margin: 20px 10px 22px 30px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
     display: inline-block;
     border: 1px solid black;
     background: white;
   }
   
-  input[type=text]:focus, input[type=password]:focus {
+  .forminput:focus{
     background-color: #ddd;
     outline: none;
-  }
-  
-  /* Overwrite default styles of hr */
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+    border-color: orangered;
   }
   
   /* Set a style for the submit button */
@@ -57,7 +47,7 @@
   }
   
   .registerbtn:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
   
   /* Add a blue text color to links */
@@ -70,7 +60,6 @@
     background-color: white;
     text-align: center;
   }
-  .h1 
-  {
+  h1 {
     text-align: center;
   }
